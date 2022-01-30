@@ -7,14 +7,9 @@ var date =
   today.getFullYear();
 var headerDate = document.getElementById("currentDay");
 
-console.log(date);
-
 var time = new Date();
 
-headerDate.innerHTML =
-  date +
-  "<br>" +
-  moment().format("HHmm");
+headerDate.innerHTML = date + "<br>" + moment().format("HHmm");
 
 // Save text to local Storage per button click, get per key after reload
 document.getElementById("buttonOne").addEventListener("click", function () {
@@ -108,104 +103,104 @@ let rowHourSix = document.getElementById("hourSix").textContent;
 let rowHourSeven = document.getElementById("hourSeven").textContent;
 let rowHourEight = document.getElementById("hourEight").textContent;
 let rowHourNine = document.getElementById("hourNine").textContent;
- 
-let currentHour = moment().format("HH") + 0 +  0
+
+let currentHour = moment().format("HH") + 0 + 0;
 
 if (rowHourOne === currentHour) {
-    var presentHour = document.getElementById("textAreaOne");
-    presentHour.classList.add("present");
-  } else if (currentHour > rowHourOne) {
-      var presentHour = document.getElementById("textAreaOne");
-    presentHour.classList.add("past");
-  } else {
-      var presentHour = document.getElementById("textAreaOne");
-      presentHour.classList.add("future");
-  }
+  var presentHour = document.getElementById("textAreaOne");
+  presentHour.classList.add("present");
+} else if (currentHour > rowHourOne) {
+  var presentHour = document.getElementById("textAreaOne");
+  presentHour.classList.add("past");
+} else {
+  var presentHour = document.getElementById("textAreaOne");
+  presentHour.classList.add("future");
+}
 
-  if (rowHourTwo === currentHour) {
-    var presentHour = document.getElementById("textAreaTwo");
-    presentHour.classList.add("present");
-  } else if (currentHour > rowHourTwo) {
-      var presentHour = document.getElementById("textAreaTwo");
-    presentHour.classList.add("past");
-  } else {
-      var presentHour = document.getElementById("textAreaTwo");
-      presentHour.classList.add("future");
-  }
+if (rowHourTwo === currentHour) {
+  var presentHour = document.getElementById("textAreaTwo");
+  presentHour.classList.add("present");
+} else if (currentHour > rowHourTwo) {
+  var presentHour = document.getElementById("textAreaTwo");
+  presentHour.classList.add("past");
+} else {
+  var presentHour = document.getElementById("textAreaTwo");
+  presentHour.classList.add("future");
+}
 
-  if (rowHourThree === currentHour) {
-    var presentHour = document.getElementById("textAreaThree");
-    presentHour.classList.add("present");
-  } else if (currentHour > rowHourThree) {
-      var presentHour = document.getElementById("textAreaThree");
-    presentHour.classList.add("past");
-  } else {
-      var presentHour = document.getElementById("textAreaThree");
-      presentHour.classList.add("future");
-  }
+if (rowHourThree === currentHour) {
+  var presentHour = document.getElementById("textAreaThree");
+  presentHour.classList.add("present");
+} else if (currentHour > rowHourThree) {
+  var presentHour = document.getElementById("textAreaThree");
+  presentHour.classList.add("past");
+} else {
+  var presentHour = document.getElementById("textAreaThree");
+  presentHour.classList.add("future");
+}
 
-  if (rowHourFour === currentHour) {
-    var presentHour = document.getElementById("textAreaFour");
-    presentHour.classList.add("present");
-  } else if (currentHour > rowHourFour) {
-      var presentHour = document.getElementById("textAreaFour");
-    presentHour.classList.add("past");
-  } else {
-      var presentHour = document.getElementById("textAreaFour");
-      presentHour.classList.add("future");
-  }
+if (rowHourFour === currentHour) {
+  var presentHour = document.getElementById("textAreaFour");
+  presentHour.classList.add("present");
+} else if (currentHour > rowHourFour) {
+  var presentHour = document.getElementById("textAreaFour");
+  presentHour.classList.add("past");
+} else {
+  var presentHour = document.getElementById("textAreaFour");
+  presentHour.classList.add("future");
+}
 
 if (rowHourFive === currentHour) {
-    var presentHour = document.getElementById("textAreaFive");
-    presentHour.classList.add("present");
-  } else if (currentHour > rowHourFive) {
-      var presentHour = document.getElementById("textAreaFive");
-    presentHour.classList.add("past");
-  } else {
-      var presentHour = document.getElementById("textAreaFive");
-      presentHour.classList.add("future");
-  }
+  var presentHour = document.getElementById("textAreaFive");
+  presentHour.classList.add("present");
+} else if (currentHour > rowHourFive) {
+  var presentHour = document.getElementById("textAreaFive");
+  presentHour.classList.add("past");
+} else {
+  var presentHour = document.getElementById("textAreaFive");
+  presentHour.classList.add("future");
+}
 
-  if (rowHourSix === currentHour) {
-    var presentHour = document.getElementById("textAreaSix");
-    presentHour.classList.add("present");
-  } else if (currentHour > rowHourSix) {
-      var presentHour = document.getElementById("textAreaSix");
-    presentHour.classList.add("past");
-  } else {
-      var presentHour = document.getElementById("textAreaSix");
-      presentHour.classList.add("future");
-  }
+if (rowHourSix === currentHour) {
+  var presentHour = document.getElementById("textAreaSix");
+  presentHour.classList.add("present");
+} else if (currentHour > rowHourSix) {
+  var presentHour = document.getElementById("textAreaSix");
+  presentHour.classList.add("past");
+} else {
+  var presentHour = document.getElementById("textAreaSix");
+  presentHour.classList.add("future");
+}
 
-  if (rowHourSeven === currentHour) {
-    var presentHour = document.getElementById("textAreaSeven");
-    presentHour.classList.add("present");
-  } else if (currentHour > rowHourSeven) {
-      var presentHour = document.getElementById("textAreaSeven");
-    presentHour.classList.add("past");
-  } else {
-      var presentHour = document.getElementById("textAreaSeven");
-      presentHour.classList.add("future");
-  }
+if (rowHourSeven === currentHour) {
+  var presentHour = document.getElementById("textAreaSeven");
+  presentHour.classList.add("present");
+} else if (currentHour > rowHourSeven) {
+  var presentHour = document.getElementById("textAreaSeven");
+  presentHour.classList.add("past");
+} else {
+  var presentHour = document.getElementById("textAreaSeven");
+  presentHour.classList.add("future");
+}
 
-  if (rowHourEight === currentHour) {
-    var presentHour = document.getElementById("textAreaEight");
-    presentHour.classList.add("present");
-  } else if (currentHour > rowHourEight) {
-      var presentHour = document.getElementById("textAreaEight");
-    presentHour.classList.add("past");
-  } else {
-      var presentHour = document.getElementById("textAreaEight");
-      presentHour.classList.add("future");
-  }
+if (rowHourEight === currentHour) {
+  var presentHour = document.getElementById("textAreaEight");
+  presentHour.classList.add("present");
+} else if (currentHour > rowHourEight) {
+  var presentHour = document.getElementById("textAreaEight");
+  presentHour.classList.add("past");
+} else {
+  var presentHour = document.getElementById("textAreaEight");
+  presentHour.classList.add("future");
+}
 
-  if (rowHourNine === currentHour) {
-    var presentHour = document.getElementById("textAreaNine");
-    presentHour.classList.add("present");
-  } else if (currentHour > rowHourNine) {
-      var presentHour = document.getElementById("textAreaNine");
-    presentHour.classList.add("past");
-  } else {
-      var presentHour = document.getElementById("textAreaNine");
-      presentHour.classList.add("future");
-  }
+if (rowHourNine === currentHour) {
+  var presentHour = document.getElementById("textAreaNine");
+  presentHour.classList.add("present");
+} else if (currentHour > rowHourNine) {
+  var presentHour = document.getElementById("textAreaNine");
+  presentHour.classList.add("past");
+} else {
+  var presentHour = document.getElementById("textAreaNine");
+  presentHour.classList.add("future");
+}
